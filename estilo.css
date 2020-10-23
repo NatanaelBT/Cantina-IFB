@@ -1,0 +1,412 @@
+*{
+	font-family: 'Roboto', sans-serif;
+	margin:0;
+	border:0;
+}
+
+body {
+	background-color: #f0f0f0;
+}
+
+header{
+	width: 100%;
+	height: 300px;
+	padding-bottom: 200px;
+	box-shadow: 0 5px 10px gray;
+}
+
+img{
+	width: 100%;
+	height: 500px;
+}
+
+#maps{
+	text-align: center;
+	margin-top: 30px;
+}
+
+nav {
+	background-color: orange;
+	text-align: center;
+	padding: 10px;
+	position: fixed;
+	width: 100%;
+	border-bottom: 1px;
+	border-style: solid;
+	display: flex;
+	justify-content: space-around;
+	border: solid 1px #bbbbbb;
+}
+
+a{
+	color:#f05545;
+	font-size: 1.3em;
+	text-decoration: none;
+}
+
+.amenu{
+	color: #000000;
+	margin-right: 20px;
+	padding: 10px;
+
+}
+
+.amenu:hover{
+	background-color: white;
+	border-radius: 20px;
+	padding: 10px;
+	transition-duration: 0.5s;
+    transition-timing-function: ease;
+
+}
+
+.amenu:active{
+	background-color: #757575;
+
+}
+
+article{
+	background-color: #F0F0F0;
+	padding: 20px;
+}
+
+#mapa {
+        height:400px;
+        width:400px;
+      }
+
+h1, h2{
+	text-align: right;
+	font-size:3em;
+	color: #e65100;
+}
+
+p{
+	font-size:1.3em;
+	text-align: justify;
+	margin-bottom: 10px;
+	text-indent: 50px;
+}
+
+
+
+
+
+#pag_promo{
+	background-color: white;
+	padding: 20px;
+}
+
+#text_promo {
+	text-align: center;
+}
+
+#text_promo p {
+	display: inline-block;
+}
+
+.produtos {
+	background-color: white;
+	display: inline-block;
+	width: 290px;
+	height: 50vh;
+	text-align: center;
+	justify-content: space-between;
+	border-radius: 20px;
+	transition-duration: 0.8s;
+	transition-timing-function: ease-in-out;
+	box-shadow: 0px 1px 2px gray;
+	margin: 20px 2% 2% 20px;
+}
+
+.produtos:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.produtos p {
+	display: inline-block;
+}
+
+#lanches{
+	font-size:1.9em;
+	font-weight: bold;
+	color: #e65100;
+
+
+}
+
+#imgs{
+	width: 100%;
+
+}
+
+.img-pro{
+	height: 270px;
+	width: 290px; 
+	border-radius: 20px 20px 0px 0;
+}
+
+#nomes{
+    font-size:1.5em;
+	font-weight: bold;
+	color: #e65100;
+	
+}
+
+#off{
+	font-size:1.5em;
+	font-weight: bold;
+	color: #e65100;
+	padding: 50px;
+	
+}
+
+
+
+
+
+td{
+	text-align: center;
+}
+
+#pag_card{
+	background-color: orange;
+	padding: 20px;
+}
+
+h2{
+	margin-bottom: 20px;
+}
+
+li{
+	font-size:1.3em;
+	color: #FFF;
+	margin-bottom: 5px;
+}
+
+.vl{ 
+	font-size:1.2em;
+	color: black;
+	
+	
+ }
+
+#btn{
+	width: 40px;
+	height: 40px;
+	position: fixed;
+	right: 50px;
+	bottom: 30px;
+	border-radius: 20px;
+
+
+}
+
+footer{
+	background-color: black;
+	padding: 5px;
+}
+
+footer p, a{
+	color: #FFF;
+	text-align: center;
+	size: 1em;
+}
+
+.form-control {
+	box-shadow: 3px 3px 10px black;
+  background: white;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  height: 46px;
+  font-size: 16px;
+  font-weight: 300;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 20px;
+  width: 400px;
+  
+}
+#cpNome{
+	box-shadow: 3px 3px 10px black;
+  background: white;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  height: 46px;
+  font-size: 16px;
+  font-weight: 300;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 20px;
+  width: 400px;
+}
+#cpTel{
+	box-shadow: 3px 3px 10px black;
+  background: white;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  height: 46px;
+  font-size: 16px;
+  font-weight: 300;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 20px;
+  width: 200px;
+}
+.form-control:active, .form-control:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #FBB448;
+}
+#btnEnviar{
+	box-shadow: 3px 3px 10px black;
+  background: white;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  height: 46px;
+  font-size: 16px;
+  font-weight: 300;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 20px;
+
+
+}
+#btnEnviar.efeito{
+	
+	background: orange;
+}
+
+#btnEnviar:active, #btnEnviar:focus {
+	outline: none;
+	box-shadow: none;
+	border-color: #FBB448;
+  }
+
+  #btnCancelar{
+	box-shadow: 3px 3px 10px black;
+  background: white;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  height: 46px;
+  font-size: 16px;
+  font-weight: 300;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 20px;
+
+
+}
+#btnCancelar.efeito{
+	
+	background: orange;
+	
+	
+
+
+}
+#btnCancelar:active, #btnCancelar:focus {
+	outline: none;
+	box-shadow: none;
+	border-color: #FBB448;
+  }  
+
+#nomedo{
+	text-align: center;
+	font-size:3em;
+	color: #e65100;
+}
+
+#fazerPedido{
+	font-size:1.5em;
+	font-weight: bold;
+	color: black;
+	transition: 2s;
+	right: 50px;
+	bottom: 30px;
+	background: orange;
+
+	
+
+}
+
+#fazerPedido.efeito{
+	color:white;
+	font-size:3em;
+
+
+}
+#btnSomar{
+	box-shadow: 3px 3px 10px black;
+  background: white;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  height: 46px;
+  font-size: 16px;
+  font-weight: 300;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 20px;
+
+
+}
+#btnSomar.efeito{
+	
+	background: orange;
+	
+	
+
+
+}
+#btnSomar:active, #btnSomar:focus {
+	outline: none;
+	box-shadow: none;
+	border-color: #FBB448;
+  }
+
+#frase{
+	color:#e65100;
+	font-size:2em;
+}
+
+#res{
+  box-shadow: 3px 3px 10px black;
+  background: white;
+  border-radius: 20px;
+  width: 590px;
+  position: relative;
+  left: 45px;
+  padding: 5px;
+  font:1.9em 'Quicksand', sans-serif;
+  margin-bottom: 5px;
+}
+
+/* formulario*/
+
+form {
+	padding: 10vh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+form input {
+	width: 50%;
+	height: 7vh;
+	margin: 2vh auto;
+	background-color: #dddddd;
+	font-size: 1.2rem;
+}
+
+label {
+	font-size: 1.5rem;
+}
+
+.botaoregistro {
+	color: black;
+	padding: 10px;
+}
+
+.bregistro {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 5vh;
+}
