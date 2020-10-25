@@ -16,7 +16,7 @@ if (isset($_SESSION['login'])) {
 	<nav>
 		<div class="menu">
             <a href="index.php" id="inicio" class="amenu">INICIO</a>
-            <a href="index.php" class="amenu">PROMOÇÕES</a>
+            <a href="index.php/#" class="amenu">PROMOÇÕES</a>
             <a href="index.php" class="amenu">CARDÁPIO</a>
             <a href="pedidos.php" class="amenu">PEDIDOS</a>
         </div>
@@ -46,13 +46,13 @@ if (isset($_SESSION['login'])) {
 	<nav>
 		<div class="menu">
             <a href="index.php" id="inicio" class="amenu">INICIO</a>
-            <a href="index.php" class="amenu">PROMOÇÕES</a>
-            <a href="index.php" class="amenu">CARDÁPIO</a>
+            <a href="#pag_promo" class="amenu">PROMOÇÕES</a>
+            <a href="#pag_card" class="amenu">CARDÁPIO</a>
             <a href="login.php" class="amenu">PEDIDOS</a>
         </div>
         <div class="cadastro">
-            <a href="login.php" class="amenu">login</a>
-            <a href="fazercadastro.php" class="amenu">cadastre-se</a>
+            <a href="login.php" class="amenu">LOGIN</a>
+            <a href="fazercadastro.php" class="amenu">CADASTRE-SE</a>
         </div>
 	</nav>
 	<header>

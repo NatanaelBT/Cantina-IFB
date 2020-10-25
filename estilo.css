@@ -4,9 +4,6 @@
 	border:0;
 }
 
-body {
-	background-color: #f0f0f0;
-}
 
 header{
 	width: 100%;
@@ -109,7 +106,7 @@ p{
 	background-color: white;
 	display: inline-block;
 	width: 290px;
-	height: 50vh;
+	height: 360px;
 	text-align: center;
 	justify-content: space-between;
 	border-radius: 20px;
@@ -218,9 +215,9 @@ footer p, a{
 }
 
 .form-control {
-	box-shadow: 3px 3px 10px black;
+	box-shadow: 0px 2px 5px gray;
   background: white;
-  border: 2px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   height: 46px;
   font-size: 16px;
   font-weight: 300;
@@ -382,18 +379,20 @@ footer p, a{
 /* formulario*/
 
 form {
-	padding: 10vh;
+	padding: 70px;
 	display: flex;
 	align-items: center;
+	text-align: center;
 	flex-direction: column;
 }
 
 form input {
 	width: 50%;
-	height: 7vh;
-	margin: 2vh auto;
-	background-color: #dddddd;
+	height: 55px;
+	margin: 20px auto;
+	background-color: #dbdbdb;
 	font-size: 1.2rem;
+	border-radius: 20px;
 }
 
 label {
@@ -401,12 +400,45 @@ label {
 }
 
 .botaoregistro {
-	color: black;
+	color:white;
 	padding: 10px;
+	border-radius: 20px;
+	margin-left: 20;
+	background-color: black;
 }
+
+
 
 .bregistro {
 	display: flex;
 	justify-content: center;
-	margin-bottom: 5vh;
+	margin-bottom: 30px;
+}
+
+/* carrinho */
+#carrinho {
+	margin: 40px 0px 40px 0px;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+#carrinho h2{
+	margin-bottom: 20px;
+}
+
+.btn-carrinho {
+	padding: 7px;
+	background-color: #228b22;
+	margin-left: 100px;
+	border: 1px ridge #006400;
+	border-radius: 10px;
+}
+
+.btn-carrinho:hover {
+	border: 1px groove #005400;
+	background-color: #006400;
+}
+
+.variavel {
+	color: orange;
 }

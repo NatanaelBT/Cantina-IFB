@@ -4,7 +4,7 @@
 if(isset($_SESSION['nome'])){
     echo "Olá $_SESSION[nome]";
     ?>
-    <a href="logoff.php" class="amenu">Sair</a>
+    <a href="logoff.php" class="amenu">SAIR</a>
     <a href="alterar.php" class="botaoregistro">Alterar Senha?</a>
     
 <?php
@@ -13,14 +13,15 @@ if(isset($_SESSION['nome'])){
     <form action="processalogin.php" method="POST">
         
         
-        Login: <input type="text" name="login"><br>
-        Senha: <input type="password" name="senha"><br>
-        <input type="submit" value="Entrar">
+            Login: <input type="text" name="login"><br>
+            Senha: <input type="password" name="senha"><br>
+            <input type="submit" value="Entrar">
 
     </form>
-
-    <a href="fazercadastro.php" class="botaoregistro">NÃO TEM CADASTRO? CLIQUE AQUI</a><br>
-    <a href="alterar.php" class="botaoregistro">Alterar Senha?</a>
+    <div class="bregistro">
+        <a href="fazercadastro.php" class="botaoregistro">CADASTRE-SE</a><br>
+        <a href="alterar.php" class="botaoregistro">Alterar Senha?</a>
+    </div>
 <?php
 }
 
